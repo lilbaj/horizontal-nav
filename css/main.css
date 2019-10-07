@@ -5,6 +5,12 @@ html {
   background-color: #dbd6cf;
 }
 
+h1 {
+  color: #fff;
+  font-family: "Bevan", serif;
+  display: block;
+  text-align: center;
+}
 *, *::before, *::after {
   box-sizing: inherit;
 }
