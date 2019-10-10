@@ -9,7 +9,30 @@ h1 {
   color: #fff;
   font-family: "Bevan", serif;
   display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: .3em;
+  padding: .6em .75em;
+  background-color: #713837;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
   text-align: center;
+  padding: .5em 0;
+  background-color: #79756f;
 }
 *, *::before, *::after {
   box-sizing: inherit;
