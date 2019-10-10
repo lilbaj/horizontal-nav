@@ -7,19 +7,22 @@ html {
 
 h1 {
   color: #fff;
-  font-family: "Bevan", serif;
+  font-family: Bevan, serif;
   display: block;
   text-align: center;
+  margin: 0;
 }
 
-ul{
+ul {
   list-style-type: none;
   text-align: center;
+  margin: 0;
 }
 
 li {
   display: inline-block;
   margin-right: .3em;
+  margin-bottom: .3em;
   padding: .6em .75em;
   background-color: #713837;
   border-radius: 4px;
@@ -30,17 +33,18 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #f33;
+li a:hover {
+  background-color: #f33;
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   padding: .5em 0;
   background-color: #79756f;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
