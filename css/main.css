@@ -9,28 +9,35 @@ h1 {
   color: #fff;
   font-family: "Bevan", serif;
   display: block;
+  text-align: center;
 }
 
-ul {
+ul{
   list-style-type: none;
+  text-align: center;
 }
 
 li {
   display: inline-block;
-  margin: .3em;
+  margin-right: .3em;
   padding: .6em .75em;
   background-color: #713837;
+  border-radius: 4px;
 }
 
 a {
   color: #fff;
   text-decoration: none;
 }
+
+a:hover {
+  color: #f33;
+}
+
 body {
-  margin: 0;
+  margin: 0 auto;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  text-align: center;
   padding: .5em 0;
   background-color: #79756f;
 }
